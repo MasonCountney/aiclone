@@ -1,38 +1,20 @@
-#include <iostream>
-#include <cmath>
-
-void Calculator() {
+void calculator() {
 	using namespace std;
-	char done = 'y';
 
-	while(done == 'y')
-	{
-		float a, b, c;
-		a = 1;
-		char op;  
-		cout << "Math >> ";
-	  
-		cin >> a >> op >> b;
-		if (!a) {
-			cout << "Invalid input!" << endl;
+	double a, b, c;
+	char op;  
+	cout << "Sure! input your problem like this `92/4`" << endl;
+	cout << "[gfBot][calc] ";
+  
+	cin >> a >> op >> b;
 	
-			done = 'y';
-    			return; 
-		}
-	  
-		switch (op) {
-		    	case '*': c = a * b; break;
-			case '/': c = a/b; break;
-			case '+': c = a+b; break;
-			case '-': c = a-b; break;
-			case '^': c = pow(a, b); break;
-    			case '#': c = sqrt(b); break;
-		default: 
-    			cout << "Invalid operator!" << endl;
-  	}
-  	
-  		cout << c << endl;
-  		cout << "Continue? (y/n) ";
-  		cin >> done;
-	}
+	switch (op) {
+    		case '*': cout << a * b << endl; break;
+		case '/': cout << a/b << endl; break;
+		case '+': cout << a+b << endl; break;
+		case '-': cout << a-b << endl; break;
+    	default: 
+    		cout << "Invalid operator!" << endl;
+		break;
+	};
 }
