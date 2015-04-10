@@ -1,3 +1,9 @@
+/*
+ * Created By Yugen
+ *
+ */
+
+
 #include <iostream>
 #include <cmath>
 #include <string.h>
@@ -28,7 +34,11 @@ int main(){
 
 		// Greeting Questions
 		{"how are you", "hows it going", "how are you doing", "test", "test"},
-		{"I'm fine thanks", "Good youself?", "I'm doing well how about you", "Good", "Fine"}
+		{"I'm fine thanks", "Good youself?", "I'm doing well how about you", "Good", "Fine"},
+
+		//Insults
+		{"fuck you", "slut", "whore", "bitch", "cunt"},
+		{"How could you say that!", "How rude.", "I know you are but what am I", "You're awful", "I'm sorry."}
 	};
 
 	string input;
