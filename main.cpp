@@ -55,7 +55,7 @@ int main(){
 		srand(time(NULL));
 		int rint = 0 + rand() % (5-0+1);
 
-		for(int i = 0; i < 2; i++){
+		for(int i = 0; i < 3; i++){
 			for(int j = 0; j < 5; j++){
 				if(input.compare(iostr[i*2][j]) == 0)
 						ascii(iostr[i*2+1][rint]);
