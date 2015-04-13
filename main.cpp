@@ -91,7 +91,7 @@ int main(){
 		{ "How could you say that!", "How rude.", "I know you are but what am I.", "You're awful", "I'm sorry." }
 	};
 
-								//fddor hit and default
+	// Default responses
 	string defaults[] {
 		"What?", "I don't get you sometimes...", "Huh?", "Say that again, r e a l l y  s l o w l y."
 	};
@@ -108,7 +108,7 @@ int main(){
 
 		srand(time(NULL));    				// Seeds Random Number and sets random numbers 
 		int randHit = 0 + rand() % (5-0);   		// For hit and defaults
-		int randDefault = 0 + rand() % (3-0+1);
+		int randDefault = 0 + rand() % (3-0);
 		int elements = sizeof(iostr) / sizeof(*iostr);  // Finds total number of lines in I/O array.
 								// Which is later used in the loop.
 		for(int i = 0; i < (elements/2); i++){
