@@ -82,13 +82,6 @@ int main(){
 		{ "went to lacrosse", "went to lacrosse practice", "had lacrosse practice", 
 			"i went to lacrosse practice", "i went to practice" },
 		{ "How'd it go?", "How was practice?", "Take me to a game!", "Was it fun?", "Don't leave me here!"},
-
-		//misc
-		{ "eat my ass", "eat my butt", "eat ass", "tounge punch my fart box", "eat my ass please"},
-		{ "Bend over", "Ok man", "Yes master", " With pleasure", "Yes please!"},
-
-		{ "fuck you", "slut", "whore", "bitch", "cunt" },
-		{ "How could you say that!", "How rude.", "I know you are but what am I.", "You're awful", "I'm sorry." }
 	};
 
 	// Default responses
